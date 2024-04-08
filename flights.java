@@ -2,10 +2,14 @@ import java.util.LinkedList;
 import java.time.LocalDate;
 public class Flights {
 
+    /**
+     * 
+     */
     static void FlightDetails() {
         // Get the current date
         LocalDate today = LocalDate.now();
         // Add one day to get tomorrow's date
+        
         LocalDate JS911dep = today.plusDays(7);
         String departDate911 = JS911dep.toString();
         LocalDate JS912dep = today.plusDays(9);
@@ -16,7 +20,7 @@ public class Flights {
         String departDate914 = JS914dep.toString();
         LocalDate JS915dep = today.plusDays(10);
         String departDate915 = JS915dep.toString();
-
+        
          LinkedList<String> JS911 = new LinkedList();
         JS911.add("JS911");
         JS911.add("BANGALORE INTERNATIONAL");
